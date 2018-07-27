@@ -3,7 +3,7 @@
 
 Introduction
 ------------
-The Canvas Toolkit is a backend designed for Canvas administrators to quickly create courses, lookup information, create analytic reports and batch routine jobs.
+The Canvas Toolkit runs on Ruby on Rails and uses REST requests to streamline common Canvas administrative tasks. It is a backend designed to quickly create courses, lookup information, create analytic reports and batch routine jobs.
 
 Getting Started
 ---------------
