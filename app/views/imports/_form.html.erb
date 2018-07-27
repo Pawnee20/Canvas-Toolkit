@@ -1,0 +1,25 @@
+ <%= form_for(@import) do |f| %>
+ <% if @import.errors.any? %>
+   <div id="error_explanation">
+     <h2><%= pluralize(@import.errors.count, "error") %> prohibited this feedback from being saved:</h2>
+     <ul>
+     <% @import.errors.full_messages.each do |message| %>
+       <li><%= message %></li>
+     <% end %>
+     </ul>
+   </div>
+ <% end %>
+ 
+ <br>
+ <div class="field">
+   <%= f.label :name %><br>
+   <%= f.text_field :name %>
+ </div>
+
+ 
+ <div class="actions">
+   <%= f.submit "Search"%>
+ </div>
+ 
+<% end %>
+ 
